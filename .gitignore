@@ -1,0 +1,6 @@
+.vs
+.dockerignore
+*/bin
+*/obj
+*/Properties
+*.Development.json
