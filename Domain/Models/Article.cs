@@ -11,7 +11,10 @@ namespace Domain.Models
         public string Text { get; set; }
         public string PreviewText { get; set; } 
         public DateTime CreationDate { get; set; }
-        public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public List<Category> Categories { get; set; }
+        public Article()
+        {
+            Categories = new List<Category>();
+        }
     }
 }
